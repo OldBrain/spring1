@@ -18,7 +18,6 @@ public class Cart {
   public List<Long> getCartList() {
     return cartList;
   }
-
   @Override
   public String toString() {
     return "Корзина сформирована{" +
