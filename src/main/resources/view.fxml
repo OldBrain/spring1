@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lesson2.view.controller.Controller">
+   <children>
+      <ComboBox fx:id="productComboBox" layoutX="14.0" layoutY="34.0" onAction="#selectProduct" prefHeight="25.0" prefWidth="339.0" />
+      <Button fx:id="InitButton" layoutX="14.0" layoutY="9.0" mnemonicParsing="false" onAction="#pressButtonInitBox" prefHeight="25.0" prefWidth="339.0" text="Init" />
+      <Button fx:id="addButton" layoutX="389.0" layoutY="21.0" mnemonicParsing="false" onAction="#pressButtonAddToCart" prefHeight="25.0" prefWidth="386.0" text="Добавить в корзину" />
+      <ListView fx:id="cartListView" layoutX="386.0" layoutY="54.0" prefHeight="253.0" prefWidth="386.0" />
+      <Button fx:id="deleteButton" layoutX="389.0" layoutY="313.0" mnemonicParsing="false" onAction="#deleteItemFromCart" prefHeight="25.0" prefWidth="386.0" text="Удалить из корзины" />
+      <Button fx:id="grateOrderButton" layoutX="391.0" layoutY="338.0" mnemonicParsing="false" onAction="#placeAnOrder" prefHeight="25.0" prefWidth="386.0" text="Сформировать заказ" />
+      
+   </children>
+</AnchorPane>
